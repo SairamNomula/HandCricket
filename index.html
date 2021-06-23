@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HandCricket</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+        body{
+            background-image: url('cricket.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        </style>
+        <script type="text/javascript" src="cricket.js"></script>
+    </head>
+    <body>
+        <header>
+        <h2>HandCricket</h2>
+    </header>
+    <div style="background-image: url('cricket.jpg');"></div>
+        <table border="20" cellpadding="30" align="center">
+        <tr style="background:greenyellow; color: white">
+            <td><b>Batting</b></td>
+            <td id="bat"></td>
+        </tr>
+        <tr style="background:greenyellow; color: white">
+            <td><b>Bowling</b></td>
+            <td id="ball"></td>
+        </tr>
+        <tr style="background:green; color: white">
+            <td>
+                <input type="submit" value="1" onclick="one()">
+                <input type="submit" value="2" onclick="two()">
+                <input type="submit" value="3" onclick="three()">
+                <input type="submit" value="4" onclick="four()">
+                <input type="submit" value="5" onclick="five()">
+                <input type="submit" value="6" onclick="six()">
+                <input type="submit" value="7" onclick="seven()">
+                <input type="submit" value="8" onclick="eight()">
+                <input type="submit" value="9" onclick="nine()">
+                <input type="submit" value="10" onclick="ten()">
+            </td>
+            <td><b>Your Score:</b><p id="score"></p></td>
+        </tr>
+    </table>
+    </body>
+</html>
