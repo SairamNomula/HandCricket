@@ -1,0 +1,28 @@
+h2{
+    color:white;
+    text-align: center;
+    text-shadow: black;
+}
+header{
+    text-align:center;
+	background:#19B994;
+}
+td{
+    color:black;
+}
+#bat{
+    color:black;
+    font-size: 30;
+}
+#ball{
+    color:black;
+    font-size: 30;
+}
+#score{
+    color:black;
+    font-size: 40;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
